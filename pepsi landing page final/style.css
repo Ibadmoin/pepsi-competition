@@ -1,0 +1,244 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #0065c3;
+}
+.navbar ul {
+    margin-left: 100px;
+}
+.navbar ul li>a{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 10px;
+    
+}
+nav ul li>a:hover{
+    color: #FFFFFF!important;
+}
+.nav-btn {
+   border: 2px solid #FFFFFF;
+   border-radius: 1.8em;
+   position:relative;
+   left: 90%;
+   font-weight: bold !important;
+   font-family: Arial, Helvetica, sans-serif;
+   transition: background-color .1s ease-out, color .1s ease-out;
+
+}
+@media screen and (max-width: 880px) {
+    .nav-btn {
+      position: relative;
+      left: 35%;
+      width: 30%;
+      line-height: 1.6rem;
+    }
+  }
+.nav-btn:hover{
+    color: #0065c3 !important;
+    background-color: #ffffff;
+    opacity: 1;
+}
+.burger-icon{
+    background-color:#0065c3 !important;
+ text-align: center ;
+
+
+}
+/* main body */
+
+
+
+
+.sec1{
+    background: #000;
+    width: 100%;
+    height:100%;
+    display: flex;
+}
+@media screen and (max-width: 810px) {
+    .sec1 {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+  
+    }
+  }
+
+.sec1-left{
+    width: 50%;
+  background-image: url(images/pepsi-main.png);
+  background-size: cover;
+}
+.sec1-left img{
+    width: 100px;
+    position: relative;
+    left: 60%;
+    top: 20%;
+}
+@media screen and (max-width: 810px) {
+    .sec1-left  {
+width: 100%;
+height: 600px;
+background-color: #000;
+background-size: cover ;
+background-position: center;  
+    }
+  }
+.sec1-right{
+    background:#000;
+  
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+@media screen and (max-width: 810px) {
+    .sec1-right  {
+width: 100%;
+
+    }
+  }
+
+.sec1-right h1{
+    background: #000;
+    width: 70%;
+    text-align: center;
+    margin-top: 5%;
+
+    
+}
+.sec1-right h1 img {
+    width: 100%;
+}
+.sec1-right h3{
+  padding: 0;
+  background: #000;
+  width: 70%;
+  text-align: center;
+  
+
+
+}
+.sec1-right h3 img{
+    width: 75%;
+}
+.promo-videos{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.promo-videos a{
+    text-decoration: none;
+}
+.promo1{
+    width: 46%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.promo1 .v-cover {
+    width: 100%;
+    height: 60%;
+
+}
+.v-cover img{
+    width: 100%;
+    height: 100%;
+}
+.v-title{
+    width:100%;
+    height: 100%;
+}
+.v-title h4{
+    color: #FFFFFF;
+    font-family: 400;
+    text-align: center;
+    height: 44px;
+    font-size:15px;
+    text-transform: capitalize;
+}
+.v-title h4 span{
+   background: rgb(219, 27, 27);
+    
+}
+.promo2{
+    width: 46%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.promo2 .v-cover{
+    width: 100%;
+    height: 60%;
+
+}
+.v-cover img{
+    width: 100%;
+    height: 100%;
+}
+.v-title{
+    width:100%;
+    height: 40%;
+}
+
+/* section 2 start */
+
+.sec2{
+    width: 100%;
+    /* edit must */
+    height:100%;
+    background-image: url(images/nitrobg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.sec2-left{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+ 
+}
+.nitrocans{
+   margin-top:17% ;
+}
+.sec2-left img{
+    width: 80%;
+
+
+}
+.sec2-right{
+    width: 40%;
+    /* edit must */
+    height: 500px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+.nitro-heading{
+    width: 80%;
+    text-align: center;
+}
+.nitro-heading img{
+    width: 80%;
+}
+.nitro-heading-sub{
+    background: green;
+    width: 70%;
+    
+}
